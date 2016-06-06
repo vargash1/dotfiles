@@ -1,5 +1,5 @@
 #Dotfiles
-Some of the configurations I use on my system.
+Some of the configuration files I use on my system.
 
 
 
