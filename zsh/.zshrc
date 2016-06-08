@@ -58,4 +58,4 @@ alias rand20='seq 20 | shuf '
 alias temps='sensors'
 alias lel='figlet -xc Top Kek xD'
 alias wttr='curl wttr.in'
-
+alias nicediff="git log -r --oneline"
