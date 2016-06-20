@@ -1,3 +1,4 @@
+export LS_COLORS='di=34:ln=32:so=1;;35:pi=1;;35:ex=1;;31:bd=45:cd=45:su=41:sg=41:tw=40:ow=40:*.rpm=1;;36'
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -25,13 +26,13 @@ ENABLE_CORRECTION="true"
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gem tmux vagrant web-search github dnf git powerline ruby python pip common-aliases colored-man-pages colorize copydir copyfile cp dirhistory docker history jsontools lol nyan rails sublime sudo systemd)
+plugins=(gem  vagrant web-search github dnf  git powerline ruby python pip common-aliases colored-man-pages colorize copydir copyfile cp dirhistory docker history jsontools lol nyan rails sublime sudo systemd)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/Python/vtodo:"
+export SSID=$(iwgetid -r)
+export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/Python/vtodo:/home/vargash1/Dev/bashScripts/tmux-2.2:"
 export PYTHONPATH="/home/vargash1/lib/python"
 powerline-daemon -q
 if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
@@ -39,6 +40,7 @@ if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
 fi
 
 alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vimrc"
 alias reloadzsh="source ~/.zshrc"
 alias flux="xflux -z 11218 -k 3100"
 alias gemhelp='gem help commands'
@@ -59,3 +61,8 @@ alias temps='sensors'
 alias lel='figlet -xc Top Kek xD'
 alias wttr='curl wttr.in'
 alias nicediff="git log -r --oneline"
+alias gitree="git log --graph --oneline --all"
+alias rchem="atom ~/Dev/rscripts/chem1100/"
+alias rbios="atom ~/Dev/rscripts/biostats/"
+alias arith="atom ~/Dev/Arithmos/"
+
