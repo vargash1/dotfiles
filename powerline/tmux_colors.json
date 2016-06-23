@@ -1,0 +1,14 @@
+{
+	"groups": {
+		"active_window_status": {"fg": "gruvboxbg0_s",   "bg": "black",    "attrs": []},
+		"window_status":        {"fg": "gruvboxfg3",     "bg": "black",    "attrs": []},
+		"activity_status":      {"fg": "gruvboxbg0_s",     "bg": "black",    "attrs": []},
+		"bell_status":          {"fg": "red",        "bg": "black",    "attrs": []},
+		"window":               {"fg": "gruvboxbg0_s",      "bg": "black",    "attrs": []},
+		"window:divider":       {"fg": "gruvboxfg3",      "bg": "black",    "attrs": []},
+		"window:current":       {"fg": "gruvboxfg3", "bg": "black", "attrs": []},
+		"window_name":          {"fg": "gruvboxfg3",      "bg": "black", "attrs": ["bold"]},
+		"session":              {"fg": "black",      "bg": "gruvboxfg3",   "attrs": ["bold"]},
+		"session:prefix":       {"fg": "gruvboxfg3",     "bg": "black", "attrs": ["bold"]}
+	}
+}

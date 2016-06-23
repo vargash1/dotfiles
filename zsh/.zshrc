@@ -32,15 +32,15 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export SSID=$(iwgetid -r)
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
 export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/Python/vtodo:/home/vargash1/Dev/bashScripts/tmux-2.2:"
 export PYTHONPATH="/home/vargash1/lib/python"
 powerline-daemon -q
 if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
-
-alias zshconfig="vim ~/.zshrc"
-alias vimconfig="vim ~/.vimrc"
+alias zshconfig="nvim ~/.zshrc"
+alias vimconfig="nvim ~/.vimrc"
 alias reloadzsh="source ~/.zshrc"
 alias flux="xflux -z 11218 -k 3100"
 alias gemhelp='gem help commands'
@@ -55,7 +55,7 @@ alias -g gp="| grep -i $1"
 alias -g gpv="| grep -v grep"
 alias hist="history | grep $1"
 alias wtf='ps axu'
-alias tmuxconfig='vim ~/.tmux.conf'
+alias tmuxconfig='nvim ~/.tmux.conf'
 alias rand20='seq 20 | shuf '
 alias temps='sensors'
 alias lel='figlet -xc Top Kek xD'
@@ -65,4 +65,4 @@ alias gitree="git log --graph --oneline --all"
 alias rchem="atom ~/Dev/rscripts/chem1100/"
 alias rbios="atom ~/Dev/rscripts/biostats/"
 alias arith="atom ~/Dev/Arithmos/"
-
+alias vim="nvim"
