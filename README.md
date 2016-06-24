@@ -1,6 +1,10 @@
 #Dotfiles
 Some of the configuration files I use on my system.
 
+<p align="center">
+   <img src="http://i.imgur.com/sjhQvT1.png?1" alt="Terminal Screenshot">
+</p>
+
 #Roxterm
 Roxterm colors are based off glacier, a  colorscheme that was originally for Sublime Text. 
 Cursor color is from base16 tomorrow, text color is from gruvbox!
