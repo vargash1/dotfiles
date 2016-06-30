@@ -33,6 +33,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export SSID=$(iwgetid -r)
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
+export GIT_EDITOR=nvim
 export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/Python/vtodo:/home/vargash1/Dev/bashScripts/tmux-2.2:"
 export PYTHONPATH="/home/vargash1/lib/python"
 powerline-daemon -q
@@ -66,3 +67,4 @@ alias rchem="atom ~/Dev/rscripts/chem1100/"
 alias rbios="atom ~/Dev/rscripts/biostats/"
 alias arith="atom ~/Dev/Arithmos/"
 alias vim="nvim"
+alias gpp="git push -v"
