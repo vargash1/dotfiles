@@ -75,3 +75,5 @@ set laststatus=2
 set cmdheight=2
 set nobackup
 set nowritebackup
+set wrap
+set linebreak
