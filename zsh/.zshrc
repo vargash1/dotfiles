@@ -26,15 +26,16 @@ ENABLE_CORRECTION="true"
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gem  vagrant web-search github dnf  git powerline ruby python pip common-aliases colored-man-pages colorize copydir copyfile cp dirhistory docker history jsontools lol nyan rails sublime sudo systemd)
+plugins=(gem vagrant web-search github dnf git powerline ruby python pip common-aliases colored-man-pages colorize copydir copyfile cp dirhistory docker history jsontools lol nyan rails sublime sudo systemd)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export SSID=$(iwgetid -r)
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
+export EDITOR=nvim
 export GIT_EDITOR=nvim
-export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/Python/vtodo:/home/vargash1/Dev/bashScripts/tmux-2.2:"
+export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/vargash1/.local/bin:/home/vargash1/bin:/home/vargash1/Dev/bashScripts:/home/vargash1/Dev/bashScripts/tmux-2.2:"
 export PYTHONPATH="/home/vargash1/lib/python"
 powerline-daemon -q
 if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
